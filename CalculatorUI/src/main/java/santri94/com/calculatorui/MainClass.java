@@ -12,5 +12,7 @@ package santri94.com.calculatorui;
 public class MainClass {
     public static void main(String[] args) {
         System.out.println("Hi Santi");
+        Calculator samuel = new Calculator();
+        samuel.setVisible(true);
     }
 }
