@@ -28,34 +28,173 @@ public class Calculator extends javax.swing.JFrame {
     private void initComponents() {
 
         jToggleButton1 = new javax.swing.JToggleButton();
-        jLabel1 = new javax.swing.JLabel();
+        jToggleButton2 = new javax.swing.JToggleButton();
+        jToggleButton3 = new javax.swing.JToggleButton();
+        jToggleButton4 = new javax.swing.JToggleButton();
+        jToggleButton5 = new javax.swing.JToggleButton();
+        jToggleButton6 = new javax.swing.JToggleButton();
+        jToggleButton7 = new javax.swing.JToggleButton();
+        jToggleButton8 = new javax.swing.JToggleButton();
+        jToggleButton9 = new javax.swing.JToggleButton();
+        jToggleButton10 = new javax.swing.JToggleButton();
+        jToggleButton11 = new javax.swing.JToggleButton();
+        jToggleButton12 = new javax.swing.JToggleButton();
+        jToggleButton13 = new javax.swing.JToggleButton();
+        jToggleButton14 = new javax.swing.JToggleButton();
+        jToggleButton15 = new javax.swing.JToggleButton();
+        jToggleButton16 = new javax.swing.JToggleButton();
+        jToggleButton17 = new javax.swing.JToggleButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(204, 153, 255));
 
-        jToggleButton1.setText("show");
+        jToggleButton1.setBackground(new java.awt.Color(0, 153, 153));
+        jToggleButton1.setFont(new java.awt.Font("Algerian", 0, 24)); // NOI18N
+        jToggleButton1.setForeground(new java.awt.Color(204, 153, 255));
+        jToggleButton1.setText("calculator");
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
-        jLabel1.setText("calculator");
+        jToggleButton2.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton2.setText("7");
+
+        jToggleButton3.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton3.setText("4");
+
+        jToggleButton4.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton4.setText("1");
+
+        jToggleButton5.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton5.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton5.setText("8");
+
+        jToggleButton6.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton6.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton6.setText("5");
+
+        jToggleButton7.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton7.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton7.setText("2");
+
+        jToggleButton8.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton8.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton8.setText("+");
+
+        jToggleButton9.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton9.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton9.setText("9");
+
+        jToggleButton10.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton10.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton10.setText("6");
+
+        jToggleButton11.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton11.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton11.setText("3");
+
+        jToggleButton12.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton12.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton12.setText("x");
+
+        jToggleButton13.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton13.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton13.setText("-");
+
+        jToggleButton14.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton14.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton14.setText("0");
+
+        jToggleButton15.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton15.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton15.setText("=");
+
+        jToggleButton16.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton16.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton16.setText(".");
+
+        jToggleButton17.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jToggleButton17.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton17.setText("+/-");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(124, 124, 124)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jToggleButton17)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jToggleButton3)
+                            .addComponent(jToggleButton4)
+                            .addComponent(jToggleButton2))))
+                .addGap(14, 14, 14)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(110, Short.MAX_VALUE))
+                    .addComponent(jToggleButton14)
+                    .addComponent(jToggleButton5)
+                    .addComponent(jToggleButton6)
+                    .addComponent(jToggleButton7))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jToggleButton9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jToggleButton8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addGap(42, 42, 42)
+                .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(58, 58, 58)
+                .addContainerGap()
                 .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(86, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(11, 11, 11)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jToggleButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jToggleButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jToggleButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jToggleButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jToggleButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jToggleButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jToggleButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jToggleButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jToggleButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jToggleButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(240, 240, 240)
+                                .addComponent(jToggleButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jToggleButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jToggleButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jToggleButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jToggleButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(251, 251, 251)
+                        .addComponent(jToggleButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -97,7 +236,22 @@ public class Calculator extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JToggleButton jToggleButton1;
+    private javax.swing.JToggleButton jToggleButton10;
+    private javax.swing.JToggleButton jToggleButton11;
+    private javax.swing.JToggleButton jToggleButton12;
+    private javax.swing.JToggleButton jToggleButton13;
+    private javax.swing.JToggleButton jToggleButton14;
+    private javax.swing.JToggleButton jToggleButton15;
+    private javax.swing.JToggleButton jToggleButton16;
+    private javax.swing.JToggleButton jToggleButton17;
+    private javax.swing.JToggleButton jToggleButton2;
+    private javax.swing.JToggleButton jToggleButton3;
+    private javax.swing.JToggleButton jToggleButton4;
+    private javax.swing.JToggleButton jToggleButton5;
+    private javax.swing.JToggleButton jToggleButton6;
+    private javax.swing.JToggleButton jToggleButton7;
+    private javax.swing.JToggleButton jToggleButton8;
+    private javax.swing.JToggleButton jToggleButton9;
     // End of variables declaration//GEN-END:variables
 }
